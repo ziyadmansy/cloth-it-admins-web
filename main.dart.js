@@ -37178,7 +37178,7 @@ A.aU3.prototype={
 $1(a){var s=A.hg().b
 if(s==null)s=null
 else{s=s.canvasKitBaseUrl
-if(s==null)s=null}return(s==null?"https://www.gstatic.com/flutter-canvaskit/36335019a8eab588c3c2ea783c618d90505be233/":s)+a},
+if(s==null)s=null}return(s==null?"https://www.gstatic.com/flutter-canvaskit/db49896cf25ceabc44096d5f088d86414e05a7aa/":s)+a},
 $S:34}
 A.aiN.prototype={
 dq(a){B.c.aF(this.a.a.save())},
@@ -54471,7 +54471,7 @@ BZ(){var s=0,r=A.y(t.HA),q,p=this,o,n,m
 var $async$BZ=A.z(function(a,b){if(a===1)return A.v(b,r)
 while(true)switch(s){case 0:n=t.N
 s=3
-return A.u(p.a.kH("https://api.clothit.co/v1/variants",A.aB(["limit","400"],n,n)),$async$BZ)
+return A.u(p.a.kH("https://api.clothit.co/v1/variants",A.aB(["limit","1000"],n,n)),$async$BZ)
 case 3:m=b
 A.cp(m)
 n=m.c
@@ -54514,7 +54514,7 @@ ls(){var s=0,r=A.y(t.eW),q,p=this,o,n,m
 var $async$ls=A.z(function(a,b){if(a===1)return A.v(b,r)
 while(true)switch(s){case 0:n=t.N
 s=3
-return A.u(p.a.kH("https://api.clothit.co/v1/colors",A.aB(["limit","100"],n,n)),$async$ls)
+return A.u(p.a.kH("https://api.clothit.co/v1/colors",A.aB(["limit","1000"],n,n)),$async$ls)
 case 3:m=b
 n=m.c
 if(n===200){n=A.dM(J.aS(m.a,"results"),!0,t.z)
@@ -54529,7 +54529,7 @@ lv(){var s=0,r=A.y(t.LW),q,p=this,o,n,m
 var $async$lv=A.z(function(a,b){if(a===1)return A.v(b,r)
 while(true)switch(s){case 0:n=t.N
 s=3
-return A.u(p.a.kH("https://api.clothit.co/v1/sizes",A.aB(["limit","100"],n,n)),$async$lv)
+return A.u(p.a.kH("https://api.clothit.co/v1/sizes",A.aB(["limit","1000"],n,n)),$async$lv)
 case 3:m=b
 n=m.c
 if(n===200){n=A.dM(J.aS(m.a,"results"),!0,t.z)
